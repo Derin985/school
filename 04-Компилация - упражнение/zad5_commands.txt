@@ -1,0 +1,6 @@
+gcc -c math.c -o math.o
+
+ar rcs libmath.a math.o
+
+gcc main.c -LC:\Users\Derin\Desktop\folder\c\dom4\zad5 -lmath -o main.exe
+
